@@ -1,0 +1,80 @@
+Log file open at 1/14/2024 9:23:25 PM
+240114 21:23:26.057 - I - Loading course library from https://www.gtbikev.com/files/courses/courses.json
+240114 21:23:26.063 - I - Loading Workout library from https://www.gtbikev.com/files/workouts/workoutplans.json
+240114 21:23:26.073 - V - Added key F5 for action MenuKey on Up
+240114 21:23:26.073 - V - Added key ZP_Left_On for action MenuKey on Up
+240114 21:23:26.073 - V - Added key MpTextChatAll for action MenuKey on Up
+240114 21:23:26.073 - V - Added key WH_Left_Down for action MenuKey on Long
+240114 21:23:26.073 - V - Added key ZP_A for action MenuSelectKey on Up
+240114 21:23:26.073 - V - Added key WH_Right_Up for action MenuSelectKey on Up
+240114 21:23:26.073 - V - Added key ZP_B for action MenuCancelKey on Up
+240114 21:23:26.073 - V - Added key WH_Right_Down for action MenuCancelKey on Up
+240114 21:23:26.073 - V - Added key ZP_UpArrow for action MenuUpKey on Up
+240114 21:23:26.073 - V - Added key WH_Left_Up for action MenuUpKey on Up
+240114 21:23:26.073 - V - Added key ZP_DownArrow for action MenuDownKey on Up
+240114 21:23:26.073 - V - Added key WH_Left_Down for action MenuDownKey on Up
+240114 21:23:26.073 - V - Added key ZP_RightArrow for action MenuRightKey on Up
+240114 21:23:26.073 - V - Added key WH_Left_Shift_Up for action MenuRightKey on Long
+240114 21:23:26.073 - V - Added key ZP_LeftArrow for action MenuLeftKey on Up
+240114 21:23:26.073 - V - Added key WH_Left_Shift_Down for action MenuLeftKey on Long
+240114 21:23:26.073 - V - Added key ZP_A for action DialogOKKey on Up
+240114 21:23:26.073 - V - Added key WH_Right_Up for action DialogOKKey on Up
+240114 21:23:26.073 - V - Added key ZP_B for action DialogCancelKey on Up
+240114 21:23:26.073 - V - Added key WH_Right_Down for action DialogCancelKey on Up
+240114 21:23:26.073 - V - Added key F11 for action DebugKey on Up
+240114 21:23:26.073 - V - Added key NumPad0 for action ScreenshotKey on Up
+240114 21:23:26.073 - V - Added key ZP_Y for action ScreenshotKey on Long
+240114 21:23:26.073 - V - Added key WH_Right_Up for action ScreenshotKey on Long
+240114 21:23:26.073 - V - Added key MediaPlayPause for action AutoPilotKey on Up
+240114 21:23:26.073 - V - Added key NumPad1 for action AutoPilotKey on Up
+240114 21:23:26.073 - V - Added key ZP_Y for action AutoPilotKey on Up
+240114 21:23:26.073 - V - Added key WH_Right_Down for action AutoPilotKey on Long
+240114 21:23:26.073 - V - Added key ZP_Z for action RadioKey on Long
+240114 21:23:26.073 - V - Added key MediaPreviousTrack for action HUDKey on Up
+240114 21:23:26.073 - V - Added key NumPad3 for action HUDKey on Up
+240114 21:23:26.073 - V - Added key ZP_Z for action HUDKey on Up
+240114 21:23:26.073 - V - Added key ZP_B for action DestinationKey on Up
+240114 21:23:26.073 - V - Added key WH_Left_Up for action DestinationKey on Long
+240114 21:23:26.073 - V - Added key NumPad4 for action SteerCenterKey on Up
+240114 21:23:26.073 - V - Added key NumPad6 for action SteerCenterKey on Up
+240114 21:23:26.073 - V - Added key ZP_Left_Joy for action SteerCenterKey on Up
+240114 21:23:26.073 - V - Added key ZP_Right_Joy for action SteerCenterKey on Up
+240114 21:23:26.073 - V - Added key WH_Right for action SteerCenterKey on Up
+240114 21:23:26.073 - V - Added key WH_Left for action SteerCenterKey on Up
+240114 21:23:26.073 - V - Added key ZP_Right_Shift for action ERGToggleKey on Long
+240114 21:23:26.073 - V - Added key ZP_Right_Joy for action LookBehindKey on Down
+240114 21:23:26.073 - V - Added key ZP_Right_Joy for action LookBehindKey on Up
+240114 21:23:26.073 - V - Added key MediaNextTrack for action NextCamKey on Up
+240114 21:23:26.073 - V - Added key ZP_Left_Joy_Btn for action NextCamKey on Up
+240114 21:23:26.073 - V - Added key MediaNextTrack for action GearUpKey on Up
+240114 21:23:26.073 - V - Added key MediaPreviousTrack for action GearUpKey on Up
+240114 21:23:26.073 - V - Added key VolumeUp for action GearUpKey on Up
+240114 21:23:26.073 - V - Added key NumPad9 for action GearUpKey on Up
+240114 21:23:26.073 - V - Added key ZP_Right_Shift for action GearUpKey on Up
+240114 21:23:26.073 - V - Added key MediaPreviousTrack for action GearDownKey on Up
+240114 21:23:26.073 - V - Added key VolumeDown for action GearDownKey on Up
+240114 21:23:26.073 - V - Added key NumPad7 for action GearDownKey on Up
+240114 21:23:26.073 - V - Added key ZP_Left_Shift for action GearDownKey on Up
+240114 21:23:26.073 - V - Added key ZP_Left_Shift for action MultiGearDownKey on Long
+240114 21:23:26.073 - V - Added key ZP_Right_Brake for action BrakeReleaseKey on Up
+240114 21:23:26.073 - V - Added key ZP_Left_Brake for action BrakeReleaseKey on Up
+240114 21:23:26.076 - I - Mod initialization complete. Version 0.7.4.0
+240114 21:23:26.939 - I - Workout library loaded successfully
+240114 21:23:26.975 - I - Course library loaded successfully
+240114 21:23:45.603 - I - Attempting network connection to multiplayer.gtbikev.com:30124
+240114 21:23:45.950 - I - Connected to multiplayer.gtbikev.com:30124: 
+240114 21:23:45.993 - D - Spawn new bike current veh null = True
+240114 21:23:45.993 - D - Spawn new bike create new bike = True
+240114 21:23:50.450 - W - Trying to handle a key press in GTBikeV.UI.CourseSelectionView but the container is not interactive
+240114 21:23:52.203 - W - Trying to handle a key press in GTBikeV.UI.CheckBoxItem but the container is not interactive
+240114 21:23:52.203 - W - Trying to handle a key press in GTBikeV.UI.CheckBoxItem but the container is not interactive
+240114 21:23:52.398 - W - Trying to handle a key press in GTBikeV.UI.CheckBoxItem but the container is not interactive
+240114 21:23:52.398 - W - Trying to handle a key press in GTBikeV.UI.CheckBoxItem but the container is not interactive
+240114 21:23:53.001 - E - Error loading fit from https://www.gtbikev.com/files/courses//100.fit: NotFound
+240114 21:23:57.717 - W - Leader board ranking is empty but current course is not null
+240114 21:23:58.743 - W - Leader board ranking is empty but current course is not null
+240114 21:23:59.291 - E - Bot 20778347 Navmesh not loaded, loading region
+240114 21:23:59.300 - V - (VTR) Newton didn't converge: iters=10 guess=22 fVirtual=0.3815137 f_vNew=0.3815137 slope=0 fric=0
+240114 21:23:59.300 - V - (VTR) Newton didn't converge: iters=10 guess=11 fVirtual=0.1907568 f_vNew=0.1907568 slope=0 fric=0
+240114 21:23:59.325 - E - Bot 20778347 Navmesh not loaded, loading region
+240114 21:23:59.339 - E - Bot 20778347 Navmesh not loaded, loading region

@@ -1,0 +1,1176 @@
+240114 21:23:27.448 - I - Starting BLE Receiver v.1.2.3.0
+240114 21:23:43.478 - I - Log level set to Verbose
+240114 21:23:44.501 - V - Adding support for device CPS address 0
+240114 21:23:44.503 - V - Adding support for device CTRLS address 0
+240114 21:23:44.503 - V - Adding support for device FEC address 0
+240114 21:23:44.504 - V - Adding support for device STEER address 0
+240114 21:23:44.504 - V - Adding support for device SBIKE address 0
+240114 21:23:44.504 - V - Adding support for device HR address 0
+240114 21:23:44.504 - V - Adding support for device SPD address 0
+240114 21:23:44.504 - V - Adding support for device FPOD address 0
+240114 21:23:44.900 - V - NEW Adv FB:BF:B8:18:5D:F0  00001818-0000-1000-8000-00805f9b34fb
+240114 21:23:44.904 - V - Getting Device for advertisment packet in 
+240114 21:23:44.906 - V -     Service in advertising packet UUID=00001818-0000-1000-8000-00805f9b34fb
+240114 21:23:44.906 - V -     Service in advertising packet UUID=00001816-0000-1000-8000-00805f9b34fb
+240114 21:23:44.906 - V -     Service in advertising packet UUID=0000180a-0000-1000-8000-00805f9b34fb
+240114 21:23:44.906 - V -     Service in advertising packet UUID=6e40fec1-b5a3-f393-e0a9-e50e24dcca9e
+240114 21:23:44.906 - I - Device  appears to be a Tacx Neo Trainer
+240114 21:23:45.531 - V - Starting BLE Receiver. result:True
+240114 21:23:47.474 - V - Getting Characteristics for service 00001816-0000-1000-8000-00805f9b34fb
+240114 21:23:47.608 - V - Setting up listener for Characteristic 00002a5b-0000-1000-8000-00805f9b34fb
+240114 21:23:47.615 - V - Setting up listener for Characteristic 00002a5c-0000-1000-8000-00805f9b34fb
+240114 21:23:47.615 - V - Getting Characteristics for service 00001818-0000-1000-8000-00805f9b34fb
+240114 21:23:47.814 - V - Setting up listener for Characteristic 00002a63-0000-1000-8000-00805f9b34fb
+240114 21:23:47.815 - V - Getting Characteristics for service 6e40fec1-b5a3-f393-e0a9-e50e24dcca9e
+240114 21:23:47.930 - V - Write CCCD: Activate Notify for 00002a5b-0000-1000-8000-00805f9b34fb Success
+240114 21:23:48.052 - V - Setting up listener for Characteristic 6e40fec2-b5a3-f393-e0a9-e50e24dcca9e
+240114 21:23:48.052 - V - Setting up listener for Characteristic 6e40fec3-b5a3-f393-e0a9-e50e24dcca9e
+240114 21:23:48.052 - V - Getting Characteristics for service 0000180a-0000-1000-8000-00805f9b34fb
+240114 21:23:48.168 - V - Write CCCD: Activate Notify for 00002a63-0000-1000-8000-00805f9b34fb Success
+240114 21:23:48.308 - V - Setting up listener for Characteristic 00002a29-0000-1000-8000-00805f9b34fb
+240114 21:23:48.309 - V - Setting up listener for Characteristic 00002a24-0000-1000-8000-00805f9b34fb
+240114 21:23:48.309 - V - Setting up listener for Characteristic 00002a25-0000-1000-8000-00805f9b34fb
+240114 21:23:48.309 - V - Setting up listener for Characteristic 00002a27-0000-1000-8000-00805f9b34fb
+240114 21:23:48.309 - V - Setting up listener for Characteristic 00002a26-0000-1000-8000-00805f9b34fb
+240114 21:23:48.348 - V - Write CCCD: Activate Notify for 6e40fec2-b5a3-f393-e0a9-e50e24dcca9e Success
+240114 21:23:48.379 - V - Read char 00002a65-0000-1000-8000-00805f9b34fb data 2C-00-01-00
+240114 21:23:48.409 - V - FEC data received Power 0 Cadence 0
+240114 21:23:48.423 - V - Read char 00002a5c-0000-1000-8000-00805f9b34fb data 07-00
+240114 21:23:48.453 - V - Read char 00002a29-0000-1000-8000-00805f9b34fb data 54-61-63-78
+240114 21:23:48.483 - V - Read char 00002a24-0000-1000-8000-00805f9b34fb data 54-32-38-37-35
+240114 21:23:48.513 - V - Read char 00002a25-0000-1000-8000-00805f9b34fb data 30-35-34-36-34
+240114 21:23:48.543 - V - Read char 00002a27-0000-1000-8000-00805f9b34fb data 31
+240114 21:23:48.587 - V - Read char 00002a26-0000-1000-8000-00805f9b34fb data 31-2E-32-2E-34
+240114 21:23:48.594 - I - Connected FEC device Tacx Neo 2T 05464 BluetoothLE#BluetoothLEe8:48:b8:c8:20:00-fb:bf:b8:18:5d:f0:FB:BF:B8:18:5D:F0 Tacx Neo Trainer
+240114 21:23:48.618 - V - CPS Power 0
+240114 21:23:48.648 - V - FEC data received Power 0 Cadence 0
+240114 21:23:48.858 - V - CPS Measurement speed 1.328227
+240114 21:23:48.903 - V - FEC data received Power 0 Cadence 0
+240114 21:23:49.203 - V - FEC data received Power 0 Cadence 0
+240114 21:23:49.443 - V - FEC data received Speed 2.672 type BikeTrainer
+240114 21:23:49.624 - V - CSCS Measurement speed 2.491773
+240114 21:23:49.683 - V - FEC data received Power 0 Cadence 0
+240114 21:23:49.923 - V - CPS Measurement speed 1.245886
+240114 21:23:49.923 - V - FEC data received Power 0 Cadence 0
+240114 21:23:50.163 - V - FEC data received Power 0 Cadence 0
+240114 21:23:50.404 - V - FEC data received Power 0 Cadence 0
+240114 21:23:50.662 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:50.704 - V - CSCS Measurement speed 2.355312
+240114 21:23:50.704 - V - FEC data received Speed 2.472 type BikeTrainer
+240114 21:23:50.785 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:50.883 - V - CPS Measurement speed 1.177656
+240114 21:23:50.886 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:50.943 - V - FEC data received Power 0 Cadence 0
+240114 21:23:51.021 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:51.188 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:51.325 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:51.423 - V - FEC data received Power 0 Cadence 0
+240114 21:23:51.425 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:51.562 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:51.664 - V - CSCS Measurement speed 2.16338
+240114 21:23:51.691 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:51.793 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:51.921 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:51.963 - V - CPS Measurement speed 1.08169
+240114 21:23:52.024 - V - FEC data received Speed 2.211 type BikeTrainer
+240114 21:23:52.089 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:52.143 - V - FEC data received Power 0 Cadence 0
+240114 21:23:52.158 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:52.289 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:52.399 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:52.521 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:52.623 - V - CSCS Measurement speed 1.780132
+240114 21:23:52.737 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:52.833 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:52.863 - V - CPS Measurement speed 0.8900662
+240114 21:23:52.930 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:53.121 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:53.163 - V - FEC data received Speed 1.655 type BikeTrainer
+240114 21:23:53.181 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:53.312 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:53.404 - V - FEC data received Power 0 Cadence 0
+240114 21:23:53.483 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:53.608 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:53.644 - V - CSCS Measurement speed 1.342322
+240114 21:23:53.644 - V - FEC data received Power 0 Cadence 0
+240114 21:23:53.703 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:53.834 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:53.883 - V - CPS Measurement speed 0.6709516
+240114 21:23:53.943 - V - FEC data received Power 0 Cadence 0
+240114 21:23:53.963 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:54.128 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:54.184 - V - FEC data received Power 0 Cadence 0
+240114 21:23:54.256 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:54.391 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:54.424 - V - FEC data received Speed 1.05 type BikeTrainer
+240114 21:23:54.488 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:54.623 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:54.759 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:54.854 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:54.904 - V - FEC data received Power 0 Cadence 0
+240114 21:23:55.142 - V - FEC data received Power 0 Cadence 0
+240114 21:23:55.443 - V - FEC data received Power 0 Cadence 0
+240114 21:23:55.683 - V - FEC data received Speed 0 type BikeTrainer
+240114 21:23:55.923 - V - FEC data received Power 0 Cadence 0
+240114 21:23:56.163 - V - FEC data received Power 0 Cadence 0
+240114 21:23:56.763 - V - FEC data received Power 0 Cadence 0
+240114 21:23:56.943 - V - FEC data received Speed 0 type BikeTrainer
+240114 21:23:57.183 - V - FEC data received Power 0 Cadence 0
+240114 21:23:57.903 - V - FEC data received Power 0 Cadence 0
+240114 21:23:58.203 - V - FEC data received Speed 0 type BikeTrainer
+240114 21:23:58.503 - V - FEC data received Power 0 Cadence 0
+240114 21:23:58.646 - V - CSCS speed reset 0 Timeout(5000)
+240114 21:23:58.683 - V - FEC data received Power 0 Cadence 0
+240114 21:23:58.885 - V - CPS speed reset 0 Timeout(5000)
+240114 21:23:58.923 - V - FEC data received Power 0 Cadence 0
+240114 21:23:59.163 - V - FEC data received Power 0 Cadence 0
+240114 21:23:59.300 - V - TacxFECService Sending Target Power message power 0w
+240114 21:23:59.405 - V - FEC data received Speed 0 type BikeTrainer
+240114 21:23:59.698 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:23:59.699 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:23:59.699 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:23:59.704 - V - FEC data received Power 0 Cadence 0
+240114 21:23:59.860 - V - TacxFECService Sending Terrain resistance message -0.03035139% rr 0.012
+240114 21:24:00.123 - V - TacxFECService Sending Wind resistance message 0.7614606 windspd -1 draft 1
+240114 21:24:00.185 - V - FEC data received Power 0 Cadence 0
+240114 21:24:00.325 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:00.325 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:00.325 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:00.424 - V - FEC data received Power 0 Cadence 0
+240114 21:24:00.457 - V - TacxFECService Sending Terrain resistance message -0.04904687% rr 0.012
+240114 21:24:00.664 - V - FEC data received Speed 0 type BikeTrainer
+240114 21:24:00.843 - V - TacxFECService Sending Wind resistance message 0.7614606 windspd -1 draft 1
+240114 21:24:00.855 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:00.855 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:00.855 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:00.904 - V - FEC data received Power 0 Cadence 0
+240114 21:24:00.989 - V - TacxFECService Sending Terrain resistance message -0.06082169% rr 0.012
+240114 21:24:01.204 - V - FEC data received Power 0 Cadence 0
+240114 21:24:01.389 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:01.389 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:01.389 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:01.444 - V - FEC data received Power 0 Cadence 0
+240114 21:24:01.623 - V - TacxFECService Sending Wind resistance message 0.7614606 windspd -1 draft 1
+240114 21:24:01.923 - V - FEC data received Speed 0 type BikeTrainer
+240114 21:24:01.924 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:01.924 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:01.924 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:02.089 - V - TacxFECService Sending Terrain resistance message -0.07583722% rr 0.012
+240114 21:24:02.164 - V - FEC data received Power 0 Cadence 0
+240114 21:24:02.404 - V - FEC data received Power 0 Cadence 0
+240114 21:24:02.491 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:02.491 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:02.491 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:02.523 - V - TacxFECService Sending Wind resistance message 0.7614606 windspd -1 draft 1
+240114 21:24:02.705 - V - FEC data received Power 0 Cadence 0
+240114 21:24:02.943 - V - FEC data received Power 0 Cadence 0
+240114 21:24:03.088 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:03.088 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:03.088 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:03.184 - V - FEC data received Speed 0.355 type BikeTrainer
+240114 21:24:03.222 - V - TacxFECService Sending Terrain resistance message -0.08370715% rr 0.012
+240114 21:24:03.622 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:03.622 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:03.622 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:03.663 - V - CPS Power 6
+240114 21:24:03.664 - V - FEC data received Power 6 Cadence 0
+240114 21:24:03.723 - V - TacxFECService Sending Wind resistance message 0.7614606 windspd -1 draft 1
+240114 21:24:03.903 - V - CPS Power 8
+240114 21:24:03.904 - V - FEC data received Power 8 Cadence 0
+240114 21:24:04.156 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:04.156 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:04.157 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:04.203 - V - CPS Power 13
+240114 21:24:04.204 - V - FEC data received Power 13 Cadence 0
+240114 21:24:04.383 - V - CPS Power 18
+240114 21:24:04.444 - V - FEC data received Speed 1.069 type BikeTrainer
+240114 21:24:04.510 - V - NEW Adv C2:4E:CC:F4:3A:06 14841-1 00001816-0000-1000-8000-00805f9b34fb
+240114 21:24:04.510 - V - Getting Device for advertisment packet in 14841-1
+240114 21:24:04.510 - V -     Service in advertising packet UUID=00001816-0000-1000-8000-00805f9b34fb
+240114 21:24:04.510 - I - Device 14841-1 appears to be a generic Speed and Cadence Sensor
+240114 21:24:04.623 - V - CPS Power 27
+240114 21:24:04.623 - V - TacxFECService Sending Terrain resistance message -0.08758307% rr 0.012
+240114 21:24:04.623 - V - CSCS Measurement speed 1.259754
+240114 21:24:04.683 - V - FEC data received Power 27 Cadence 0
+240114 21:24:04.863 - V - TacxFECService Sending Wind resistance message 0.7614606 windspd -1 draft 1
+240114 21:24:04.923 - V - CPS Power 33
+240114 21:24:04.923 - V - CPS Measurement speed 0.629877
+240114 21:24:04.923 - V - FEC data received Speed 1.505 type BikeTrainer
+240114 21:24:05.027 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:05.027 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:05.027 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:05.163 - V - CPS Power 41
+240114 21:24:05.164 - V - FEC data received Power 41 Cadence 0
+240114 21:24:05.190 - V - TacxFECService Sending Terrain resistance message -0.08879565% rr 0.008
+240114 21:24:05.403 - V - TacxFECService Sending Wind resistance message 0.7614609 windspd -1 draft 1
+240114 21:24:05.403 - V - CPS Power 46
+240114 21:24:05.404 - V - FEC data received Power 46 Cadence 0
+240114 21:24:05.589 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:05.590 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:05.590 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:05.704 - V - CPS Power 52
+240114 21:24:05.704 - V - CSCS Measurement speed 1.834812
+240114 21:24:05.705 - V - FEC data received Power 52 Cadence 0
+240114 21:24:05.754 - V - TacxFECService Sending Terrain resistance message -0.08975253% rr 0.004
+240114 21:24:05.883 - V - CPS Power 55
+240114 21:24:05.883 - V - CPS Measurement speed 0.9174061
+240114 21:24:05.943 - V - FEC data received Power 55 Cadence 0
+240114 21:24:06.123 - V - TacxFECService Sending Wind resistance message 0.7614611 windspd -1 draft 1
+240114 21:24:06.184 - V - CPS Power 60
+240114 21:24:06.184 - V - FEC data received Speed 2.213 type BikeTrainer
+240114 21:24:06.290 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:06.290 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:06.290 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:06.423 - V - CPS Power 63
+240114 21:24:06.423 - V - TacxFECService Sending Terrain resistance message -0.09044749% rr 0.004
+240114 21:24:06.424 - V - FEC data received Power 63 Cadence 0
+240114 21:24:06.604 - V - Getting Characteristics for service 0000180a-0000-1000-8000-00805f9b34fb
+240114 21:24:06.663 - V - CPS Power 65
+240114 21:24:06.701 - V - Setting up listener for Characteristic 00002a29-0000-1000-8000-00805f9b34fb
+240114 21:24:06.701 - V - Setting up listener for Characteristic 00002a24-0000-1000-8000-00805f9b34fb
+240114 21:24:06.701 - V - Setting up listener for Characteristic 00002a25-0000-1000-8000-00805f9b34fb
+240114 21:24:06.701 - V - Setting up listener for Characteristic 00002a27-0000-1000-8000-00805f9b34fb
+240114 21:24:06.701 - V - Setting up listener for Characteristic 00002a26-0000-1000-8000-00805f9b34fb
+240114 21:24:06.701 - V - Setting up listener for Characteristic 00002a28-0000-1000-8000-00805f9b34fb
+240114 21:24:06.701 - V - Getting Characteristics for service 00001816-0000-1000-8000-00805f9b34fb
+240114 21:24:06.783 - V - TacxFECService Sending Wind resistance message 0.7614612 windspd -1 draft 1
+240114 21:24:06.847 - V - Setting up listener for Characteristic 00002a5b-0000-1000-8000-00805f9b34fb
+240114 21:24:06.847 - V - Setting up listener for Characteristic 00002a5c-0000-1000-8000-00805f9b34fb
+240114 21:24:06.856 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:06.856 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:06.856 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:06.904 - V - FEC data received Power 65 Cadence 0
+240114 21:24:06.931 - V - Read char 00002a5c-0000-1000-8000-00805f9b34fb data 02-00
+240114 21:24:06.961 - V - Write CCCD: Activate Notify for 00002a5b-0000-1000-8000-00805f9b34fb Success
+240114 21:24:06.991 - V - TacxFECService Sending Terrain resistance message -0.09100149% rr 0.004
+240114 21:24:07.067 - V - Read char 00002a29-0000-1000-8000-00805f9b34fb data 51-69-6E-67-64-61-6F-20-4D-61-67-65-6E-65-20-49-6E-74-65-6C-6C-69-67-65-6E-63-65-20-54-65-63-68-6E-6F-6C-6F-67-79-20-43-6F-2E-2C-20-4C-74-64
+240114 21:24:07.097 - V - Read char 00002a24-0000-1000-8000-00805f9b34fb data 31-31-32
+240114 21:24:07.141 - V - Read char 00002a25-0000-1000-8000-00805f9b34fb data 32-33-33-37-30-30-31-37-33
+240114 21:24:07.171 - V - Read char 00002a27-0000-1000-8000-00805f9b34fb data 34
+240114 21:24:07.202 - V - Read char 00002a26-0000-1000-8000-00805f9b34fb data 30-2E-31-30-38
+240114 21:24:07.204 - V - CPS Power 64
+240114 21:24:07.204 - V - FEC data received Power 64 Cadence 0
+240114 21:24:07.232 - V - Read char 00002a28-0000-1000-8000-00805f9b34fb data 30-2E-31-30-38
+240114 21:24:07.232 - I - Connected SPD device 14841-1 BluetoothLE#BluetoothLEe8:48:b8:c8:20:00-c2:4e:cc:f4:3a:06:C2:4E:CC:F4:3A:06 Speed and Cadence Sensor
+240114 21:24:07.383 - V - CPS Power 63
+240114 21:24:07.459 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:07.459 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:07.459 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:07.503 - V - FEC data received Speed 2.702 type BikeTrainer
+240114 21:24:07.563 - V - TacxFECService Sending Wind resistance message 0.7614614 windspd -1 draft 1
+240114 21:24:07.683 - V - CPS Power 62
+240114 21:24:07.743 - V - CSCS Measurement speed 2.658096
+240114 21:24:07.744 - V - FEC data received Power 62 Cadence 0
+240114 21:24:07.923 - V - CPS Measurement speed 1.328638
+240114 21:24:07.924 - V - FEC data received Power 62 Cadence 0
+240114 21:24:07.999 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:07.999 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:07.999 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:08.128 - V - TacxFECService Sending Terrain resistance message -0.08551893% rr 0.004
+240114 21:24:08.163 - V - CPS Power 59
+240114 21:24:08.164 - V - FEC data received Power 59 Cadence 0
+240114 21:24:08.403 - V - CPS Power 57
+240114 21:24:08.523 - V - TacxFECService Sending Wind resistance message 0.7614615 windspd -1 draft 1
+240114 21:24:08.558 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:08.558 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:08.558 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:08.703 - V - CPS Power 58
+240114 21:24:08.703 - V - CSCS Measurement speed 3.011765
+240114 21:24:08.704 - V - FEC data received Speed 3.158 type BikeTrainer
+240114 21:24:08.759 - V - TacxFECService Sending User Weight message uw 66 bw 12
+240114 21:24:08.883 - V - CPS Power 60
+240114 21:24:08.884 - V - CPS Measurement speed 1.505882
+240114 21:24:08.943 - V - FEC data received Power 60 Cadence 0
+240114 21:24:09.091 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:09.091 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:09.091 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:09.183 - V - CPS Power 63
+240114 21:24:09.184 - V - FEC data received Power 63 Cadence 0
+240114 21:24:09.223 - V - TacxFECService Sending Terrain resistance message -0.04881315% rr 0.004
+240114 21:24:09.423 - V - CPS Power 65
+240114 21:24:09.424 - V - FEC data received Power 65 Cadence 0
+240114 21:24:09.624 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:09.624 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:09.624 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:09.663 - V - CPS Power 66
+240114 21:24:09.664 - V - CSCS Measurement speed 3.285561
+240114 21:24:09.664 - V - FEC data received Power 66 Cadence 0
+240114 21:24:09.723 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:09.904 - V - CPS Measurement speed 1.643408
+240114 21:24:09.904 - V - FEC data received Speed 3.513 type BikeTrainer
+240114 21:24:10.222 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:10.222 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:10.222 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:10.355 - V - TacxFECService Sending Terrain resistance message -0.02420513% rr 0.004
+240114 21:24:10.443 - V - FEC data received Power 66 Cadence 0
+240114 21:24:10.487 - V - CSCS Measurement cadence 200
+240114 21:24:10.683 - V - CPS Power 68
+240114 21:24:10.684 - V - CSCS Measurement speed 3.560265
+240114 21:24:10.684 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:10.755 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:10.755 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:10.755 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:10.889 - V - TacxFECService Sending Terrain resistance message -0.01729415% rr 0.004
+240114 21:24:10.923 - V - CPS Power 70
+240114 21:24:10.923 - V - CPS Measurement speed 1.780132
+240114 21:24:10.924 - V - FEC data received Power 70 Cadence 0
+240114 21:24:11.163 - V - FEC data received Speed 3.897 type BikeTrainer
+240114 21:24:11.289 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:11.289 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:11.289 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:11.343 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:11.403 - V - FEC data received Power 70 Cadence 0
+240114 21:24:11.643 - V - FEC data received Power 70 Cadence 0
+240114 21:24:11.644 - V - CPS Power 71
+240114 21:24:11.645 - V - CSCS Measurement speed 3.806018
+240114 21:24:11.855 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:11.855 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:11.855 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:11.884 - V - CPS Power 72
+240114 21:24:11.884 - V - CPS Measurement speed 1.903009
+240114 21:24:11.990 - V - TacxFECService Sending Terrain resistance message -0.008607248% rr 0.004
+240114 21:24:12.183 - V - CPS Power 70
+240114 21:24:12.184 - V - FEC data received Power 70 Cadence 0
+240114 21:24:12.212 - V - CSCS Measurement cadence 0
+240114 21:24:12.303 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:12.391 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:12.391 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:12.391 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:12.423 - V - CPS Power 68
+240114 21:24:12.424 - V - FEC data received Speed 4.102 type BikeTrainer
+240114 21:24:12.523 - V - TacxFECService Sending Terrain resistance message -0.006291786% rr 0.004
+240114 21:24:12.663 - V - CPS Power 69
+240114 21:24:12.664 - V - CSCS Measurement speed 3.971191
+240114 21:24:12.664 - V - FEC data received Power 69 Cadence 0
+240114 21:24:12.903 - V - CPS Power 70
+240114 21:24:12.903 - V - CPS Measurement speed 1.985595
+240114 21:24:12.903 - V - FEC data received Power 70 Cadence 0
+240114 21:24:12.904 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:12.955 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:12.955 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:12.955 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:13.089 - V - TacxFECService Sending Terrain resistance message -0.005431524% rr 0.004
+240114 21:24:13.143 - V - FEC data received Power 70 Cadence 0
+240114 21:24:13.443 - V - FEC data received Power 70 Cadence 0
+240114 21:24:13.489 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:13.490 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:13.490 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:13.563 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:13.683 - V - CPS Power 71
+240114 21:24:13.684 - V - CSCS Measurement speed 4.135385
+240114 21:24:13.684 - V - FEC data received Speed 4.347 type BikeTrainer
+240114 21:24:13.923 - V - CPS Power 72
+240114 21:24:13.923 - V - CPS Measurement speed 2.067692
+240114 21:24:13.924 - V - FEC data received Power 72 Cadence 0
+240114 21:24:14.023 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:14.023 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:14.023 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:14.079 - V - CSCS Measurement cadence 0
+240114 21:24:14.155 - V - TacxFECService Sending Terrain resistance message -0.002377111% rr 0.004
+240114 21:24:14.164 - V - FEC data received Power 72 Cadence 0
+240114 21:24:14.403 - V - CPS Power 73
+240114 21:24:14.404 - V - FEC data received Power 73 Cadence 0
+240114 21:24:14.523 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:14.555 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:14.555 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:14.555 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:14.643 - V - FEC data received Power 73 Cadence 0
+240114 21:24:14.644 - V - CPS Power 72
+240114 21:24:14.645 - V - CSCS Measurement speed 4.3008
+240114 21:24:14.691 - V - TacxFECService Sending Terrain resistance message -0.00196448% rr 0.004
+240114 21:24:14.883 - V - CPS Power 71
+240114 21:24:14.883 - V - CPS Measurement speed 2.149325
+240114 21:24:14.943 - V - FEC data received Speed 4.508 type BikeTrainer
+240114 21:24:15.091 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:15.091 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:15.091 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:15.183 - V - CPS Power 70
+240114 21:24:15.184 - V - FEC data received Power 70 Cadence 0
+240114 21:24:15.184 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:15.423 - V - CPS Power 69
+240114 21:24:15.656 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:15.656 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:15.656 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:15.663 - V - CPS Power 68
+240114 21:24:15.664 - V - CSCS Measurement speed 4.353036
+240114 21:24:15.665 - V - FEC data received Power 68 Cadence 0
+240114 21:24:15.788 - V - TacxFECService Sending Terrain resistance message -0.001776021% rr 0.004
+240114 21:24:15.903 - V - CPS Power 67
+240114 21:24:15.903 - V - CPS Measurement speed 2.176518
+240114 21:24:15.904 - V - FEC data received Power 67 Cadence 0
+240114 21:24:15.946 - V - CSCS Measurement cadence 0
+240114 21:24:16.189 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:16.190 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:16.190 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:16.203 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:16.203 - V - CPS Power 65
+240114 21:24:16.204 - V - FEC data received Speed 4.591 type BikeTrainer
+240114 21:24:16.503 - V - CPS Power 64
+240114 21:24:16.504 - V - FEC data received Power 64 Cadence 0
+240114 21:24:16.684 - V - CPS Power 63
+240114 21:24:16.684 - V - CPS Power 63
+240114 21:24:16.684 - V - FEC data received Power 63 Cadence 0
+240114 21:24:16.756 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:16.756 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:16.756 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:16.921 - V - TacxFECService Sending Terrain resistance message -0.002399108% rr 0.004
+240114 21:24:16.923 - V - CPS Power 62
+240114 21:24:16.923 - V - CPS Measurement speed 2.19056
+240114 21:24:16.924 - V - FEC data received Power 62 Cadence 0
+240114 21:24:17.192 - V - CSCS Measurement cadence 0
+240114 21:24:17.322 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:17.322 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:17.322 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:17.343 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:17.403 - V - CPS Power 63
+240114 21:24:17.404 - V - FEC data received Speed 4.647 type BikeTrainer
+240114 21:24:17.703 - V - CPS Power 64
+240114 21:24:17.704 - V - CSCS Measurement speed 4.466043
+240114 21:24:17.704 - V - FEC data received Power 64 Cadence 0
+240114 21:24:17.855 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:17.855 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:17.855 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:17.943 - V - CPS Measurement speed 2.231863
+240114 21:24:17.944 - V - FEC data received Power 64 Cadence 0
+240114 21:24:17.989 - V - TacxFECService Sending Terrain resistance message -0.0007111007% rr 0.004
+240114 21:24:18.185 - V - FEC data received Power 64 Cadence 0
+240114 21:24:18.303 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:18.390 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:18.390 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:18.390 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:18.424 - V - FEC data received Power 64 Cadence 0
+240114 21:24:18.592 - V - TacxFECService Sending Terrain resistance message 0.000910962% rr 0.004
+240114 21:24:18.664 - V - CSCS Measurement speed 4.489353
+240114 21:24:18.664 - V - FEC data received Speed 4.705 type BikeTrainer
+240114 21:24:18.903 - V - CPS Measurement speed 2.245848
+240114 21:24:19.023 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:19.024 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:19.024 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:19.024 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:19.060 - V - CSCS Measurement cadence 0
+240114 21:24:19.203 - V - CPS Power 66
+240114 21:24:19.204 - V - FEC data received Power 66 Cadence 0
+240114 21:24:19.255 - V - TacxFECService Sending User Weight message uw 66 bw 12
+240114 21:24:19.444 - V - FEC data received Power 66 Cadence 0
+240114 21:24:19.589 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:19.589 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:19.589 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:19.684 - V - CSCS Measurement speed 4.5463
+240114 21:24:19.684 - V - FEC data received Power 66 Cadence 0
+240114 21:24:19.755 - V - TacxFECService Sending Terrain resistance message 0.001097492% rr 0.004
+240114 21:24:19.923 - V - CPS Power 68
+240114 21:24:19.923 - V - CPS Measurement speed 2.27315
+240114 21:24:19.924 - V - FEC data received Speed 4.788 type BikeTrainer
+240114 21:24:20.155 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:20.155 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:20.155 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:20.163 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:20.163 - V - CPS Power 70
+240114 21:24:20.164 - V - FEC data received Power 70 Cadence 0
+240114 21:24:20.404 - V - CPS Power 71
+240114 21:24:20.404 - V - FEC data received Power 71 Cadence 0
+240114 21:24:20.689 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:20.689 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:20.689 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:20.703 - V - CPS Power 76
+240114 21:24:20.703 - V - CSCS Measurement speed 4.654545
+240114 21:24:20.821 - V - TacxFECService Sending Terrain resistance message 0.0003339926% rr 0.004
+240114 21:24:20.927 - V - CSCS Measurement cadence 0
+240114 21:24:20.943 - V - CPS Power 77
+240114 21:24:20.943 - V - CPS Measurement speed 2.327273
+240114 21:24:20.943 - V - FEC data received Power 77 Cadence 0
+240114 21:24:21.183 - V - CPS Power 79
+240114 21:24:21.183 - V - FEC data received Speed 4.925 type BikeTrainer
+240114 21:24:21.185 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:21.255 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:21.255 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:21.255 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:21.390 - V - TacxFECService Sending Terrain resistance message -0.0001885921% rr 0.004
+240114 21:24:21.423 - V - CPS Power 80
+240114 21:24:21.424 - V - FEC data received Power 80 Cadence 0
+240114 21:24:21.663 - V - CPS Power 81
+240114 21:24:21.664 - V - CSCS Measurement speed 4.736564
+240114 21:24:21.664 - V - FEC data received Power 81 Cadence 0
+240114 21:24:21.783 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:21.824 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:21.824 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:21.824 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:21.903 - V - CPS Measurement speed 2.369587
+240114 21:24:21.904 - V - FEC data received Power 81 Cadence 0
+240114 21:24:21.955 - V - TacxFECService Sending Terrain resistance message -0.001041247% rr 0.004
+240114 21:24:22.171 - V - CSCS Measurement cadence 128
+240114 21:24:22.203 - V - CPS Power 82
+240114 21:24:22.204 - V - FEC data received Power 82 Cadence 0
+240114 21:24:22.355 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:22.355 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:22.355 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:22.443 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:22.444 - V - FEC data received Speed 5.016 type BikeTrainer
+240114 21:24:22.683 - V - CPS Power 80
+240114 21:24:22.684 - V - CSCS Measurement speed 4.792868
+240114 21:24:22.684 - V - FEC data received Power 80 Cadence 0
+240114 21:24:22.922 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:22.922 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:22.922 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:22.983 - V - CPS Measurement speed 2.396434
+240114 21:24:22.984 - V - FEC data received Power 80 Cadence 0
+240114 21:24:23.056 - V - TacxFECService Sending Terrain resistance message -0.001373139% rr 0.004
+240114 21:24:23.163 - V - CPS Power 78
+240114 21:24:23.163 - V - FEC data received Power 78 Cadence 0
+240114 21:24:23.403 - V - CPS Power 77
+240114 21:24:23.404 - V - FEC data received Power 77 Cadence 0
+240114 21:24:23.404 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:23.455 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:23.455 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:23.455 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:23.590 - V - TacxFECService Sending Terrain resistance message -0.001624084% rr 0.004
+240114 21:24:23.703 - V - FEC data received Power 77 Cadence 0
+240114 21:24:23.704 - V - CSCS Measurement speed 4.821525
+240114 21:24:23.943 - V - FEC data received Speed 5.063 type BikeTrainer
+240114 21:24:23.944 - V - CPS Power 75
+240114 21:24:23.944 - V - CPS Measurement speed 2.410762
+240114 21:24:23.990 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:23.990 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:23.990 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:24.039 - V - CSCS Measurement cadence 128
+240114 21:24:24.063 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:24.184 - V - FEC data received Power 75 Cadence 0
+240114 21:24:24.185 - V - CPS Power 71
+240114 21:24:24.424 - V - CPS Power 70
+240114 21:24:24.523 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:24.523 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:24.523 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:24.663 - V - FEC data received Power 70 Cadence 0
+240114 21:24:24.664 - V - CPS Power 68
+240114 21:24:24.664 - V - CSCS Measurement speed 4.846882
+240114 21:24:24.690 - V - TacxFECService Sending Terrain resistance message -0.001938942% rr 0.004
+240114 21:24:24.903 - V - FEC data received Power 68 Cadence 0
+240114 21:24:24.904 - V - CPS Power 67
+240114 21:24:24.904 - V - CPS Measurement speed 2.423441
+240114 21:24:25.023 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:25.123 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:25.123 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:25.123 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:25.204 - V - FEC data received Speed 5.072 type BikeTrainer
+240114 21:24:25.204 - V - CPS Power 69
+240114 21:24:25.257 - V - TacxFECService Sending Terrain resistance message -0.002066024% rr 0.004
+240114 21:24:25.285 - V - CSCS Measurement cadence 128
+240114 21:24:25.443 - V - FEC data received Power 69 Cadence 0
+240114 21:24:25.683 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:25.723 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:25.723 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:25.723 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:25.743 - V - CPS Power 68
+240114 21:24:25.744 - V - CSCS Measurement speed 4.848703
+240114 21:24:25.856 - V - TacxFECService Sending Terrain resistance message -0.002144271% rr 0.004
+240114 21:24:25.924 - V - CPS Power 69
+240114 21:24:25.924 - V - CPS Measurement speed 2.424352
+240114 21:24:26.224 - V - CPS Power 70
+240114 21:24:26.283 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:26.290 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:26.290 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:26.290 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:26.463 - V - FEC data received Speed 5.1 type BikeTrainer
+240114 21:24:26.490 - V - TacxFECService Sending User Weight message uw 66 bw 12
+240114 21:24:26.703 - V - FEC data received Power 70 Cadence 0
+240114 21:24:26.704 - V - CPS Power 72
+240114 21:24:26.705 - V - CSCS Measurement speed 4.87619
+240114 21:24:26.823 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:26.823 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:26.823 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:26.943 - V - FEC data received Power 72 Cadence 0
+240114 21:24:26.944 - V - CPS Measurement speed 2.436714
+240114 21:24:27.151 - V - CSCS Measurement cadence 0
+240114 21:24:27.183 - V - FEC data received Power 72 Cadence 0
+240114 21:24:27.223 - V - TacxFECService Sending Terrain resistance message -0.00150497% rr 0.004
+240114 21:24:27.355 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:27.355 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:27.355 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:27.423 - V - FEC data received Power 72 Cadence 0
+240114 21:24:27.483 - V - CPS Power 73
+240114 21:24:27.543 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:27.663 - V - FEC data received Speed 5.138 type BikeTrainer
+240114 21:24:27.664 - V - CPS Power 74
+240114 21:24:27.664 - V - CSCS Measurement speed 4.903991
+240114 21:24:27.774 - V - CSCS Measurement cadence 0
+240114 21:24:27.904 - V - CPS Power 75
+240114 21:24:27.904 - V - CPS Measurement speed 2.450598
+240114 21:24:27.922 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:27.922 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:27.922 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:28.091 - V - TacxFECService Sending Terrain resistance message 1.931275E-05% rr 0.004
+240114 21:24:28.203 - V - FEC data received Power 75 Cadence 0
+240114 21:24:28.203 - V - CPS Power 77
+240114 21:24:28.443 - V - FEC data received Power 77 Cadence 0
+240114 21:24:28.444 - V - CPS Power 76
+240114 21:24:28.491 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:28.491 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:28.491 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:28.564 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:28.683 - V - FEC data received Power 76 Cadence 0
+240114 21:24:28.684 - V - CSCS Measurement speed 4.958647
+240114 21:24:28.923 - V - FEC data received Speed 5.186 type BikeTrainer
+240114 21:24:28.924 - V - CPS Measurement speed 2.478371
+240114 21:24:29.020 - V - CSCS Measurement cadence 128
+240114 21:24:29.057 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:29.057 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:29.057 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:29.163 - V - FEC data received Power 76 Cadence 0
+240114 21:24:29.188 - V - TacxFECService Sending Terrain resistance message 0.0003479081% rr 0.004
+240114 21:24:29.403 - V - FEC data received Power 76 Cadence 0
+240114 21:24:29.583 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:29.592 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:29.592 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:29.592 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:29.704 - V - CSCS Measurement speed 4.983546
+240114 21:24:29.704 - V - CPS Power 77
+240114 21:24:29.723 - V - TacxFECService Sending Terrain resistance message 0.0003246033% rr 0.004
+240114 21:24:30.004 - V - FEC data received Power 77 Cadence 0
+240114 21:24:30.004 - V - CPS Power 76
+240114 21:24:30.004 - V - CPS Measurement speed 2.491773
+240114 21:24:30.122 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:30.122 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:30.122 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:30.183 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:30.183 - V - FEC data received Speed 5.222 type BikeTrainer
+240114 21:24:30.423 - V - FEC data received Power 76 Cadence 0
+240114 21:24:30.655 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:30.657 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:30.657 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:30.664 - V - CPS Power 75
+240114 21:24:30.664 - V - CSCS Measurement speed 5.012587
+240114 21:24:30.790 - V - TacxFECService Sending Terrain resistance message 0.0001981063% rr 0.004
+240114 21:24:30.887 - V - CSCS Measurement cadence 192
+240114 21:24:30.904 - V - CPS Power 76
+240114 21:24:30.904 - V - CPS Measurement speed 2.506294
+240114 21:24:31.143 - V - FEC data received Power 76 Cadence 0
+240114 21:24:31.192 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:31.192 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:31.192 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:31.323 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:31.443 - V - FEC data received Speed 5.252 type BikeTrainer
+240114 21:24:31.445 - V - CPS Power 75
+240114 21:24:31.684 - V - FEC data received Power 75 Cadence 0
+240114 21:24:31.684 - V - CSCS Measurement speed 5.012587
+240114 21:24:31.725 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:31.725 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:31.725 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:31.958 - V - TacxFECService Sending User Weight message uw 66 bw 12
+240114 21:24:31.983 - V - FEC data received Power 75 Cadence 0
+240114 21:24:31.984 - V - CPS Power 74
+240114 21:24:31.984 - V - CPS Measurement speed 2.506294
+240114 21:24:32.131 - V - CSCS Measurement cadence 0
+240114 21:24:32.163 - V - FEC data received Power 74 Cadence 0
+240114 21:24:32.358 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:32.358 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:32.358 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:32.403 - V - FEC data received Power 74 Cadence 0
+240114 21:24:32.490 - V - TacxFECService Sending Terrain resistance message 0.0001453373% rr 0.004
+240114 21:24:32.643 - V - FEC data received Speed 5.263 type BikeTrainer
+240114 21:24:32.703 - V - CPS Power 72
+240114 21:24:32.704 - V - CSCS Measurement speed 5.012587
+240114 21:24:32.924 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:32.924 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:32.924 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:32.943 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:32.943 - V - FEC data received Power 72 Cadence 0
+240114 21:24:32.944 - V - CPS Measurement speed 2.506294
+240114 21:24:33.423 - V - FEC data received Power 72 Cadence 0
+240114 21:24:33.424 - V - CPS Power 71
+240114 21:24:33.457 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:33.457 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:33.457 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:33.624 - V - TacxFECService Sending Terrain resistance message 0.0001493555% rr 0.004
+240114 21:24:33.663 - V - FEC data received Power 71 Cadence 0
+240114 21:24:33.664 - V - CPS Power 72
+240114 21:24:33.664 - V - CSCS Measurement speed 5.041969
+240114 21:24:33.903 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:33.904 - V - FEC data received Speed 5.272 type BikeTrainer
+240114 21:24:34.000 - V - CSCS Measurement cadence 0
+240114 21:24:34.023 - V - CPS Measurement speed 2.519508
+240114 21:24:34.059 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:34.059 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:34.059 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:34.143 - V - FEC data received Power 72 Cadence 0
+240114 21:24:34.191 - V - TacxFECService Sending Terrain resistance message 0.0001521936% rr 0.004
+240114 21:24:34.203 - V - CPS Power 71
+240114 21:24:34.443 - V - FEC data received Power 71 Cadence 0
+240114 21:24:34.444 - V - CPS Power 70
+240114 21:24:34.563 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:34.625 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:34.625 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:34.625 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:34.683 - V - FEC data received Power 70 Cadence 0
+240114 21:24:34.684 - V - CPS Power 69
+240114 21:24:34.684 - V - CSCS Measurement speed 5.012587
+240114 21:24:34.759 - V - TacxFECService Sending Terrain resistance message 0.0001079543% rr 0.004
+240114 21:24:34.924 - V - CPS Power 68
+240114 21:24:34.925 - V - CPS Measurement speed 2.506294
+240114 21:24:35.164 - V - FEC data received Speed 5.258 type BikeTrainer
+240114 21:24:35.164 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:35.223 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:35.224 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:35.224 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:35.244 - V - CSCS Measurement cadence 64
+240114 21:24:35.357 - V - TacxFECService Sending Terrain resistance message 0.000102867% rr 0.004
+240114 21:24:35.403 - V - FEC data received Power 68 Cadence 0
+240114 21:24:35.463 - V - CPS Power 67
+240114 21:24:35.703 - V - FEC data received Power 67 Cadence 0
+240114 21:24:35.704 - V - CPS Power 65
+240114 21:24:35.704 - V - CSCS Measurement speed 5.012587
+240114 21:24:35.758 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:35.758 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:35.758 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:35.883 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:35.943 - V - FEC data received Power 65 Cadence 0
+240114 21:24:35.943 - V - CPS Power 66
+240114 21:24:35.943 - V - CPS Measurement speed 2.506294
+240114 21:24:36.184 - V - FEC data received Power 66 Cadence 0
+240114 21:24:36.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:36.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:36.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:36.423 - V - FEC data received Speed 5.25 type BikeTrainer
+240114 21:24:36.424 - V - CPS Power 67
+240114 21:24:36.457 - V - TacxFECService Sending Terrain resistance message 0.0001431819% rr 0.004
+240114 21:24:36.489 - V - CSCS Measurement cadence 64
+240114 21:24:36.664 - V - CPS Power 68
+240114 21:24:36.664 - V - CSCS Measurement speed 5.012587
+240114 21:24:36.783 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:36.858 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:36.858 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:36.858 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:36.903 - V - FEC data received Power 68 Cadence 0
+240114 21:24:36.963 - V - CPS Measurement speed 2.506294
+240114 21:24:36.992 - V - TacxFECService Sending Terrain resistance message 0.0001036348% rr 0.004
+240114 21:24:37.204 - V - FEC data received Power 68 Cadence 0
+240114 21:24:37.425 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:37.425 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:37.425 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:37.443 - V - FEC data received Power 68 Cadence 0
+240114 21:24:37.444 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:37.683 - V - FEC data received Speed 5.247 type BikeTrainer
+240114 21:24:37.684 - V - CSCS Measurement speed 5.012587
+240114 21:24:37.734 - V - CSCS Measurement cadence 128
+240114 21:24:37.924 - V - FEC data received Power 68 Cadence 0
+240114 21:24:37.924 - V - CPS Measurement speed 2.506294
+240114 21:24:37.958 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:37.958 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:37.958 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:38.125 - V - TacxFECService Sending Terrain resistance message 7.18164E-05% rr 0.004
+240114 21:24:38.163 - V - FEC data received Speed 5.244 type BikeTrainer
+240114 21:24:38.403 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:38.404 - V - FEC data received Power 68 Cadence 0
+240114 21:24:38.464 - V - CPS Power 67
+240114 21:24:38.597 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:38.597 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:38.597 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:38.703 - V - FEC data received Power 67 Cadence 0
+240114 21:24:38.703 - V - CPS Power 68
+240114 21:24:38.704 - V - CSCS Measurement speed 5.012587
+240114 21:24:38.727 - V - TacxFECService Sending Terrain resistance message 0.0001114851% rr 0.004
+240114 21:24:38.943 - V - FEC data received Power 68 Cadence 0
+240114 21:24:38.944 - V - CPS Power 69
+240114 21:24:38.944 - V - CPS Measurement speed 2.506294
+240114 21:24:38.981 - V - CSCS Measurement cadence 128
+240114 21:24:39.184 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:39.184 - V - FEC data received Power 69 Cadence 0
+240114 21:24:39.185 - V - CPS Power 70
+240114 21:24:39.191 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:39.191 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:39.191 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:39.422 - V - TacxFECService Sending User Weight message uw 66 bw 12
+240114 21:24:39.424 - V - FEC data received Speed 5.258 type BikeTrainer
+240114 21:24:39.424 - V - CPS Power 72
+240114 21:24:39.663 - V - FEC data received Power 72 Cadence 0
+240114 21:24:39.664 - V - CPS Power 73
+240114 21:24:39.664 - V - CSCS Measurement speed 5.041969
+240114 21:24:39.757 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:39.758 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:39.758 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:39.922 - V - TacxFECService Sending Terrain resistance message -0.005689576% rr 0.004
+240114 21:24:39.964 - V - CPS Power 74
+240114 21:24:39.964 - V - CPS Measurement speed 2.520985
+240114 21:24:40.203 - V - FEC data received Power 74 Cadence 0
+240114 21:24:40.204 - V - CPS Power 75
+240114 21:24:40.323 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:40.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:40.325 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:40.325 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:40.443 - V - FEC data received Power 75 Cadence 0
+240114 21:24:40.444 - V - CPS Power 76
+240114 21:24:40.456 - V - TacxFECService Sending Terrain resistance message -0.007520091% rr 0.004
+240114 21:24:40.684 - V - CPS Power 77
+240114 21:24:40.684 - V - FEC data received Speed 5.288 type BikeTrainer
+240114 21:24:40.684 - V - CSCS Measurement speed 5.065724
+240114 21:24:40.848 - V - CSCS Measurement cadence 128
+240114 21:24:40.858 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:40.858 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:40.858 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:40.923 - V - FEC data received Power 77 Cadence 0
+240114 21:24:40.924 - V - CPS Power 78
+240114 21:24:40.924 - V - CPS Measurement speed 2.532862
+240114 21:24:41.043 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:41.163 - V - FEC data received Power 78 Cadence 0
+240114 21:24:41.164 - V - CPS Power 77
+240114 21:24:41.391 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:41.391 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:41.391 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:41.403 - V - FEC data received Power 77 Cadence 0
+240114 21:24:41.591 - V - TacxFECService Sending User Weight message uw 66 bw 12
+240114 21:24:41.704 - V - CSCS Measurement speed 5.067714
+240114 21:24:41.924 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:41.924 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:41.924 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:41.943 - V - FEC data received Speed 5.311 type BikeTrainer
+240114 21:24:41.943 - V - CPS Power 76
+240114 21:24:41.944 - V - CPS Measurement speed 2.532862
+240114 21:24:42.091 - V - CSCS Measurement cadence 128
+240114 21:24:42.124 - V - TacxFECService Sending User Weight message uw 66 bw 12
+240114 21:24:42.183 - V - FEC data received Power 76 Cadence 0
+240114 21:24:42.423 - V - FEC data received Power 76 Cadence 0
+240114 21:24:42.457 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:42.457 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:42.457 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:42.625 - V - TacxFECService Sending Terrain resistance message -0.00271081% rr 0.004
+240114 21:24:42.663 - V - FEC data received Power 76 Cadence 0
+240114 21:24:42.664 - V - CPS Power 75
+240114 21:24:42.665 - V - CSCS Measurement speed 5.065724
+240114 21:24:42.903 - V - FEC data received Power 75 Cadence 0
+240114 21:24:43.024 - V - CPS Measurement speed 2.532862
+240114 21:24:43.058 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:43.058 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:43.058 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:43.203 - V - FEC data received Speed 5.325 type BikeTrainer
+240114 21:24:43.203 - V - CPS Power 74
+240114 21:24:43.204 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:43.337 - V - CSCS Measurement cadence 128
+240114 21:24:43.624 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:43.624 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:43.624 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:43.683 - V - FEC data received Power 74 Cadence 0
+240114 21:24:43.684 - V - CPS Power 75
+240114 21:24:43.684 - V - CSCS Measurement speed 5.095735
+240114 21:24:43.791 - V - TacxFECService Sending Terrain resistance message -0.002521921% rr 0.004
+240114 21:24:43.924 - V - FEC data received Power 75 Cadence 0
+240114 21:24:43.924 - V - CPS Measurement speed 2.546359
+240114 21:24:44.163 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:44.163 - V - FEC data received Power 75 Cadence 0
+240114 21:24:44.164 - V - CPS Power 74
+240114 21:24:44.223 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:44.223 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:44.223 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:44.359 - V - TacxFECService Sending Terrain resistance message -0.002632809% rr 0.004
+240114 21:24:44.403 - V - FEC data received Speed 5.33 type BikeTrainer
+240114 21:24:44.463 - V - CPS Power 73
+240114 21:24:44.582 - V - CSCS Measurement cadence 192
+240114 21:24:44.703 - V - FEC data received Power 73 Cadence 0
+240114 21:24:44.704 - V - CPS Power 72
+240114 21:24:44.705 - V - CSCS Measurement speed 5.095735
+240114 21:24:44.757 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:44.757 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:44.757 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:44.823 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:44.943 - V - FEC data received Power 72 Cadence 0
+240114 21:24:44.944 - V - CPS Measurement speed 2.546861
+240114 21:24:45.244 - V - CPS Power 71
+240114 21:24:45.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:45.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:45.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:45.424 - V - FEC data received Power 71 Cadence 0
+240114 21:24:45.424 - V - CPS Power 70
+240114 21:24:45.456 - V - TacxFECService Sending Terrain resistance message 8.589445E-05% rr 0.004
+240114 21:24:45.663 - V - FEC data received Speed 5.325 type BikeTrainer
+240114 21:24:45.723 - V - CSCS Measurement speed 5.095735
+240114 21:24:45.724 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:45.858 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:45.858 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:45.858 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:45.903 - V - FEC data received Power 70 Cadence 0
+240114 21:24:45.963 - V - CPS Measurement speed 2.546359
+240114 21:24:45.991 - V - TacxFECService Sending Terrain resistance message 0.0009774815% rr 0.004
+240114 21:24:46.204 - V - FEC data received Power 70 Cadence 0
+240114 21:24:46.323 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:46.390 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:46.390 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:46.390 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:46.444 - V - FEC data received Power 70 Cadence 0
+240114 21:24:46.450 - V - CSCS Measurement cadence 128
+240114 21:24:46.522 - V - TacxFECService Sending Terrain resistance message 0.001908095% rr 0.004
+240114 21:24:46.684 - V - FEC data received Power 70 Cadence 0
+240114 21:24:46.684 - V - CSCS Measurement speed 5.065724
+240114 21:24:46.922 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:46.923 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:46.923 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:46.923 - V - FEC data received Speed 5.322 type BikeTrainer
+240114 21:24:46.923 - V - CPS Measurement speed 2.532862
+240114 21:24:46.924 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:47.163 - V - FEC data received Power 70 Cadence 0
+240114 21:24:47.404 - V - FEC data received Power 70 Cadence 0
+240114 21:24:47.455 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:47.455 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:47.455 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:47.592 - V - TacxFECService Sending Terrain resistance message 0.002101609% rr 0.004
+240114 21:24:47.695 - V - CSCS Measurement cadence 128
+240114 21:24:47.703 - V - FEC data received Power 70 Cadence 0
+240114 21:24:47.704 - V - CPS Power 71
+240114 21:24:47.705 - V - CSCS Measurement speed 5.067714
+240114 21:24:47.943 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:47.943 - V - FEC data received Power 71 Cadence 0
+240114 21:24:47.944 - V - CPS Measurement speed 2.532862
+240114 21:24:47.991 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:47.991 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:47.991 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:48.125 - V - TacxFECService Sending Terrain resistance message 0.001455239% rr 0.004
+240114 21:24:48.184 - V - FEC data received Speed 5.322 type BikeTrainer
+240114 21:24:48.185 - V - CPS Power 70
+240114 21:24:48.424 - V - FEC data received Power 70 Cadence 0
+240114 21:24:48.543 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:48.557 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:48.557 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:48.557 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:48.724 - V - CSCS Measurement speed 5.065724
+240114 21:24:48.725 - V - TacxFECService Sending Terrain resistance message 0.0009781714% rr 0.004
+240114 21:24:48.903 - V - FEC data received Power 70 Cadence 0
+240114 21:24:48.963 - V - CPS Power 71
+240114 21:24:48.963 - V - CPS Measurement speed 2.532862
+240114 21:24:49.083 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:49.143 - V - FEC data received Power 71 Cadence 0
+240114 21:24:49.159 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:49.159 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:49.159 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:49.203 - V - CPS Power 74
+240114 21:24:49.293 - V - TacxFECService Sending Terrain resistance message 0.0006263363% rr 0.004
+240114 21:24:49.444 - V - CPS Power 75
+240114 21:24:49.444 - V - CPS Power 75
+240114 21:24:49.444 - V - FEC data received Speed 5.338 type BikeTrainer
+240114 21:24:49.561 - V - CSCS Measurement cadence 0
+240114 21:24:49.683 - V - FEC data received Power 75 Cadence 0
+240114 21:24:49.684 - V - CPS Power 78
+240114 21:24:49.684 - V - CSCS Measurement speed 5.12
+240114 21:24:49.743 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:49.756 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:49.756 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:49.756 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:49.890 - V - TacxFECService Sending Terrain resistance message 0.0003076591% rr 0.004
+240114 21:24:49.923 - V - FEC data received Power 78 Cadence 0
+240114 21:24:49.923 - V - CPS Power 80
+240114 21:24:49.923 - V - CPS Measurement speed 2.56
+240114 21:24:50.164 - V - FEC data received Power 80 Cadence 0
+240114 21:24:50.223 - V - CPS Power 82
+240114 21:24:50.283 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:50.325 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:50.325 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:50.325 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:50.458 - V - TacxFECService Sending Terrain resistance message -0.001670098% rr 0.004
+240114 21:24:50.463 - V - CPS Power 83
+240114 21:24:50.644 - V - FEC data received Speed 5.386 type BikeTrainer
+240114 21:24:50.704 - V - CPS Power 84
+240114 21:24:50.704 - V - CSCS Measurement speed 5.148603
+240114 21:24:50.808 - V - CSCS Measurement cadence 128
+240114 21:24:50.823 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:50.867 - V - NEW Adv E6:21:3D:82:D4:EC  0000180a-0000-1000-8000-00805f9b34fb
+240114 21:24:50.867 - V - Getting Device for advertisment packet in 
+240114 21:24:50.867 - V -     Service in advertising packet UUID=0000180a-0000-1000-8000-00805f9b34fb
+240114 21:24:50.925 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:50.925 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:50.925 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:50.943 - V - FEC data received Power 84 Cadence 0
+240114 21:24:50.944 - V - CPS Power 83
+240114 21:24:50.944 - V - CPS Measurement speed 2.574301
+240114 21:24:51.091 - V - TacxFECService Sending Terrain resistance message -0.002192266% rr 0.004
+240114 21:24:51.183 - V - FEC data received Power 83 Cadence 0
+240114 21:24:51.184 - V - CPS Power 80
+240114 21:24:51.423 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:51.423 - V - FEC data received Power 80 Cadence 0
+240114 21:24:51.425 - V - CPS Power 77
+240114 21:24:51.525 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:51.525 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:51.525 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:51.663 - V - FEC data received Power 77 Cadence 0
+240114 21:24:51.691 - V - TacxFECService Sending Terrain resistance message -0.00302284% rr 0.004
+240114 21:24:51.723 - V - CPS Power 70
+240114 21:24:51.724 - V - CSCS Measurement speed 5.095735
+240114 21:24:51.903 - V - FEC data received Speed 5.327 type BikeTrainer
+240114 21:24:51.963 - V - CPS Power 65
+240114 21:24:51.963 - V - CPS Measurement speed 2.546359
+240114 21:24:52.052 - V - CSCS Measurement cadence 192
+240114 21:24:52.084 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:52.091 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:52.091 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:52.091 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:52.204 - V - CPS Power 55
+240114 21:24:52.258 - V - TacxFECService Sending Terrain resistance message -0.007216699% rr 0.004
+240114 21:24:52.443 - V - FEC data received Power 55 Cadence 0
+240114 21:24:52.444 - V - CPS Power 47
+240114 21:24:52.658 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:52.658 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:52.658 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:52.683 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:52.684 - V - FEC data received Power 47 Cadence 0
+240114 21:24:52.684 - V - CPS Power 35
+240114 21:24:52.685 - V - CSCS Measurement speed 4.846882
+240114 21:24:52.923 - V - FEC data received Power 35 Cadence 0
+240114 21:24:52.923 - V - CPS Power 28
+240114 21:24:52.923 - V - CPS Measurement speed 2.423441
+240114 21:24:53.192 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:53.192 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:53.192 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:53.223 - V - FEC data received Speed 5.03 type BikeTrainer
+240114 21:24:53.224 - V - CPS Power 18
+240114 21:24:53.325 - V - TacxFECService Sending Terrain resistance message -0.03534385% rr 0.004
+240114 21:24:53.404 - V - FEC data received Power 18 Cadence 0
+240114 21:24:53.463 - V - CPS Power 13
+240114 21:24:53.703 - V - FEC data received Power 13 Cadence 0
+240114 21:24:53.704 - V - CPS Power 7
+240114 21:24:53.704 - V - CSCS Measurement speed 4.624516
+240114 21:24:53.758 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:53.758 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:53.758 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:53.763 - V - TacxFECService Sending Wind resistance message 0.761462 windspd -1 draft 1
+240114 21:24:53.944 - V - CPS Power 4
+240114 21:24:53.944 - V - CPS Measurement speed 2.314747
+240114 21:24:54.183 - V - FEC data received Power 4 Cadence 0
+240114 21:24:54.184 - V - CPS Power 0
+240114 21:24:54.293 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:54.294 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:54.294 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:54.424 - V - FEC data received Speed 4.73 type BikeTrainer
+240114 21:24:54.424 - V - TacxFECService Sending Terrain resistance message 0.002717093% rr 0.004
+240114 21:24:54.664 - V - FEC data received Power 0 Cadence 0
+240114 21:24:54.724 - V - CSCS Measurement speed 4.409569
+240114 21:24:54.824 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:54.824 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:54.824 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:54.843 - V - TacxFECService Sending Wind resistance message 0.761462 windspd -1 draft 1
+240114 21:24:54.904 - V - FEC data received Power 0 Cadence 0
+240114 21:24:54.963 - V - CPS Measurement speed 2.204785
+240114 21:24:55.203 - V - FEC data received Power 0 Cadence 0
+240114 21:24:55.357 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:55.358 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:55.358 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:55.503 - V - FEC data received Power 0 Cadence 0
+240114 21:24:55.524 - V - TacxFECService Sending Terrain resistance message 0.00498824% rr 0.004
+240114 21:24:55.684 - V - CSCS Measurement speed 4.163407
+240114 21:24:55.684 - V - FEC data received Speed 4.45 type BikeTrainer
+240114 21:24:55.923 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:55.923 - V - FEC data received Power 0 Cadence 0
+240114 21:24:55.958 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:55.958 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:55.958 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:55.984 - V - CPS Measurement speed 2.081704
+240114 21:24:56.123 - V - TacxFECService Sending Terrain resistance message 0.004237447% rr 0.004
+240114 21:24:56.164 - V - FEC data received Power 0 Cadence 0
+240114 21:24:56.403 - V - FEC data received Power 0 Cadence 0
+240114 21:24:56.523 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:56.557 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:56.557 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:56.557 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:56.703 - V - FEC data received Power 0 Cadence 0
+240114 21:24:56.705 - V - CSCS Measurement speed 3.942071
+240114 21:24:56.757 - V - TacxFECService Sending User Weight message uw 66 bw 12
+240114 21:24:56.943 - V - FEC data received Speed 4.13 type BikeTrainer
+240114 21:24:56.944 - V - CPS Measurement speed 1.971939
+240114 21:24:57.064 - V - CSCS cadence reset 0 Timeout(5000)
+240114 21:24:57.124 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:57.125 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:57.125 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:57.183 - V - FEC data received Power 0 Cadence 0
+240114 21:24:57.259 - V - TacxFECService Sending Terrain resistance message 0.002105956% rr 0.004
+240114 21:24:57.664 - V - FEC data received Power 0 Cadence 0
+240114 21:24:57.692 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:57.692 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:57.692 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:57.723 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:57.724 - V - CSCS Measurement speed 3.726863
+240114 21:24:57.904 - V - FEC data received Power 0 Cadence 0
+240114 21:24:57.964 - V - CPS Measurement speed 1.861818
+240114 21:24:58.203 - V - FEC data received Speed 3.85 type BikeTrainer
+240114 21:24:58.226 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:58.226 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:58.226 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:58.391 - V - TacxFECService Sending Terrain resistance message 5.400449E-05% rr 0.004
+240114 21:24:58.443 - V - FEC data received Power 0 Cadence 0
+240114 21:24:58.683 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:58.684 - V - CSCS Measurement speed 3.505134
+240114 21:24:58.792 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:58.792 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:58.792 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:58.925 - V - TacxFECService Sending Terrain resistance message -0.006341221% rr 0.004
+240114 21:24:58.983 - V - CPS Measurement speed 1.752567
+240114 21:24:59.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:59.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:59.324 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:59.343 - V - TacxFECService Sending Wind resistance message 0.7614617 windspd -1 draft 1
+240114 21:24:59.403 - V - FEC data received Speed 3.575 type BikeTrainer
+240114 21:24:59.704 - V - FEC data received Power 0 Cadence 0
+240114 21:24:59.704 - V - CSCS Measurement speed 3.313405
+240114 21:24:59.857 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:59.859 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:59.859 - V - TacxFECService Sending Road Feel message None intensity 0
+240114 21:24:59.943 - V - FEC data received Power 0 Cadence 0
+240114 21:24:59.943 - V - CPS Measurement speed 1.656703
+240114 21:24:59.991 - V - TacxFECService Sending Terrain resistance message -0.007911011% rr 0.004
+240114 21:25:00.243 - V - FEC data received Power 0 Cadence 0
+240114 21:25:00.364 - V - TacxFECService Sending Wind resistance message 0.7614619 windspd -1 draft 1
+240114 21:25:00.423 - V - FEC data received Power 0 Cadence 0
+240114 21:25:00.663 - V - FEC data received Speed 3.341 type BikeTrainer
+240114 21:25:00.724 - V - CSCS Measurement speed 3.121045
+240114 21:25:00.963 - V - CPS Measurement speed 1.561089
+240114 21:25:01.203 - V - FEC data received Power 0 Cadence 0
+240114 21:25:01.444 - V - FEC data received Power 0 Cadence 0
+240114 21:25:01.683 - V - FEC data received Power 0 Cadence 0
+240114 21:25:01.684 - V - CSCS Measurement speed 2.957909
+240114 21:25:01.923 - V - FEC data received Speed 3.1 type BikeTrainer
+240114 21:25:01.983 - V - CPS Measurement speed 1.478955
+240114 21:25:02.223 - V - FEC data received Power 0 Cadence 0
+240114 21:25:02.404 - V - FEC data received Power 0 Cadence 0
+240114 21:25:02.704 - V - CSCS Measurement speed 2.792727
+240114 21:25:02.943 - V - FEC data received Power 0 Cadence 0
+240114 21:25:02.944 - V - CPS Measurement speed 1.396364
+240114 21:25:03.183 - V - FEC data received Speed 2.891 type BikeTrainer
+240114 21:25:03.483 - V - FEC data received Power 0 Cadence 0
+240114 21:25:03.724 - V - CSCS Measurement speed 2.628851
+240114 21:25:03.963 - V - CPS Measurement speed 1.314425
+240114 21:25:04.263 - V - FEC data received Power 0 Cadence 0
+240114 21:25:04.443 - V - FEC data received Speed 2.677 type BikeTrainer
+240114 21:25:04.683 - V - FEC data received Power 0 Cadence 0
+240114 21:25:04.744 - V - CSCS Measurement speed 2.466055
+240114 21:25:04.924 - V - FEC data received Power 0 Cadence 0
+240114 21:25:05.044 - V - CPS Measurement speed 1.232321
+240114 21:25:05.163 - V - FEC data received Power 0 Cadence 0
+240114 21:25:05.463 - V - FEC data received Power 0 Cadence 0
+240114 21:25:05.703 - V - FEC data received Speed 2.491 type BikeTrainer
+240114 21:25:05.704 - V - CSCS Measurement speed 2.327273
+240114 21:25:05.944 - V - CPS Measurement speed 1.163636
+240114 21:25:05.944 - V - CPS Measurement speed 1.163636
+240114 21:25:05.944 - V - FEC data received Power 0 Cadence 0
+240114 21:25:06.423 - V - FEC data received Power 0 Cadence 0
+240114 21:25:06.664 - V - FEC data received Power 0 Cadence 0
+240114 21:25:06.723 - V - CSCS Measurement speed 2.189817
+240114 21:25:06.903 - V - FEC data received Speed 2.3 type BikeTrainer
+240114 21:25:06.963 - V - CPS Measurement speed 1.095466
+240114 21:25:07.203 - V - FEC data received Power 0 Cadence 0
+240114 21:25:07.444 - V - FEC data received Power 0 Cadence 0
+240114 21:25:07.804 - V - CSCS Measurement speed 2.053868
+240114 21:25:07.983 - V - CPS Measurement speed 1.026934
+240114 21:25:08.163 - V - FEC data received Speed 2.133 type BikeTrainer
+240114 21:25:08.404 - V - FEC data received Power 0 Cadence 0
+240114 21:25:08.644 - V - FEC data received Power 0 Cadence 0
+240114 21:25:08.704 - V - CSCS Measurement speed 1.916577
+240114 21:25:08.944 - V - FEC data received Power 0 Cadence 0
+240114 21:25:08.944 - V - CPS Measurement speed 0.958716
+240114 21:25:09.184 - V - FEC data received Power 0 Cadence 0
+240114 21:25:09.423 - V - FEC data received Speed 1.958 type BikeTrainer
+240114 21:25:09.903 - V - FEC data received Power 0 Cadence 0
+240114 21:25:10.143 - V - FEC data received Power 0 Cadence 0
+240114 21:25:10.443 - V - FEC data received Power 0 Cadence 0
+240114 21:25:10.683 - V - FEC data received Speed 1.8 type BikeTrainer
+240114 21:25:10.744 - V - CSCS Measurement speed 1.670862
+240114 21:25:10.923 - V - FEC data received Power 0 Cadence 0
+240114 21:25:10.983 - V - CPS Measurement speed 0.8354312
+240114 21:25:11.163 - V - FEC data received Speed 1.736 type BikeTrainer
+240114 21:25:11.403 - V - FEC data received Power 0 Cadence 0
+240114 21:25:11.703 - V - FEC data received Power 0 Cadence 0
+240114 21:25:11.704 - V - CSCS Measurement speed 1.560522
+240114 21:25:11.943 - V - FEC data received Power 0 Cadence 0
+240114 21:25:11.944 - V - CPS Measurement speed 0.7805444
